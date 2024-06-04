@@ -2056,6 +2056,10 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 1024px) {
+  .lg\:order-first {
+    order: -9999;
+  }
+
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
   }
